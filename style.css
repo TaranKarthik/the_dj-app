@@ -1,0 +1,70 @@
+.heading{
+    width: 100%;
+    margin: 0px;
+    font-size: 23px;
+}
+
+.note{
+    font-size: 15px;
+}
+
+body{
+    background-size: cover;
+}
+
+.speed_div{
+    float: left;
+}
+
+.speed_div2{
+    float: right;
+}
+
+.speed_disk_img,
+.volume_disk_img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed,
+#volume{
+    font-size:23px;
+    margin: 15px;
+}
+
+.pulse:hover,
+.pulse:focus {
+  -webkit-animation: pulse 1.5s;
+          animation: pulse 1.5s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+.pulse {
+    --color: #ef6eae;
+    --hover: #ef8f6e;
+}
+
+canvas{
+  border-radius: 20px;
+  border: 5px solid white;
+  margin-top: 160px;
+
+}
+
+
+
+
+
+
